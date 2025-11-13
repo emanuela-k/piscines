@@ -1,0 +1,24 @@
+.contact-map-section {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.contact-map-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  min-width: 0;
+}
+
+.contact-map-frame {
+  width: 100%;
+  height: clamp(360px, 55vh, 520px);
+  border: none;
+  display: block;
+}
+

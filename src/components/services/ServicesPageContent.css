@@ -1,0 +1,434 @@
+.services-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.service-highlight-section {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 580px;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.service-highlight-overlay {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 110px 32px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.service-highlight-section.construction-renovation .service-highlight-overlay {
+  background: linear-gradient(90deg, rgba(16, 78, 121, 0.92) 0%, rgba(25, 120, 176, 0.72) 55%, rgba(46, 156, 216, 0.45) 100%);
+}
+
+.service-highlight-section.bien-etre .service-highlight-overlay,
+.service-highlight-section.amenagement-exterieur .service-highlight-overlay {
+  background: rgba(11, 29, 52, 0.55);
+}
+
+.service-highlight-content {
+  width: min(1160px, 100%);
+  color: #f4f9ff;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  min-width: 0;
+}
+
+.service-label {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.service-number {
+  font-size: 0.85rem;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.service-title {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.12em;
+}
+
+.service-description {
+  font-size: 1.1rem;
+  line-height: 1.85;
+  margin: 0;
+  color: rgba(233, 245, 255, 0.92);
+  max-width: 940px;
+}
+
+.service-bullet-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px 24px;
+}
+
+.service-bullet-list li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.service-bullet-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #00d1ff;
+}
+
+.service-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 8px;
+}
+
+.service-group-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 18px 20px;
+  backdrop-filter: blur(4px);
+  min-height: 180px;
+}
+
+.service-group-card h3 {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.service-group-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.service-group-card li {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.97rem;
+  line-height: 1.6;
+}
+
+.services-gallery-section {
+  padding: 110px 40px 120px;
+  background: #f6fbff;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.gallery-header {
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.gallery-label {
+  font-size: 0.85rem;
+  letter-spacing: 0.5em;
+  color: #5d6b82;
+  text-transform: uppercase;
+}
+
+.gallery-title {
+  font-size: clamp(2.6rem, 5vw, 3.5rem);
+  margin: 0;
+  color: #11213d;
+  letter-spacing: 0.08em;
+}
+
+.gallery-subtitle {
+  font-size: 1.05rem;
+  color: #657089;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.gallery-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.gallery-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+  width: 260px;
+  overflow: hidden;
+}
+
+.gallery-tab {
+  padding: 16px 20px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 149, 255, 0.2);
+  background: rgba(255, 255, 255, 0.95);
+  color: #1a2743;
+  text-align: left;
+  font-size: 0.98rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.gallery-tab.active,
+.gallery-tab:hover {
+  background: #0095ff;
+  color: white;
+  box-shadow: 0 12px 30px rgba(0, 149, 255, 0.25);
+  border-color: transparent;
+}
+
+.gallery-display {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.gallery-description p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #4b576d;
+}
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  min-width: 0;
+}
+
+.gallery-image-card {
+  margin: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 18px 42px rgba(17, 33, 61, 0.18);
+  min-height: 220px;
+}
+
+.gallery-image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.gallery-image-card:hover img {
+  transform: scale(1.05);
+}
+
+.services-expertise-section {
+  padding: 110px 40px 120px;
+  background: linear-gradient(180deg, rgba(22, 93, 146, 0.94) 0%, rgba(32, 129, 188, 0.85) 100%);
+  color: #ffffff;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.expertise-header {
+  max-width: 780px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.expertise-label {
+  font-size: 0.85rem;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: rgba(221, 240, 255, 0.8);
+}
+
+.expertise-title {
+  font-size: clamp(2.4rem, 5vw, 3.3rem);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.expertise-subtitle {
+  margin: 0;
+  font-size: 1.05rem;
+  color: rgba(236, 246, 255, 0.85);
+  line-height: 1.7;
+}
+
+.expertise-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.expertise-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 16px;
+  padding: 22px 24px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  min-height: 120px;
+}
+
+.card-icon {
+  font-size: 1.2rem;
+  background: rgba(0, 149, 255, 0.3);
+  color: #ffffff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.expertise-card p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: rgba(243, 248, 255, 0.9);
+}
+
+@media (max-width: 1100px) {
+  .service-highlight-overlay {
+    padding: 90px 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .gallery-layout {
+    flex-direction: column;
+  }
+
+  .gallery-tabs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .gallery-tab {
+    flex: 1 1 200px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-highlight-section {
+    min-height: 520px;
+  }
+
+  .service-highlight-overlay {
+    padding: 70px 18px;
+  }
+
+  .service-highlight-section.construction-renovation .service-highlight-overlay {
+    background: linear-gradient(90deg, rgba(16, 78, 121, 0.94) 0%, rgba(25, 120, 176, 0.78) 60%, rgba(46, 156, 216, 0.62) 100%);
+  }
+
+  .service-highlight-section.bien-etre .service-highlight-overlay,
+  .service-highlight-section.amenagement-exterieur .service-highlight-overlay {
+    background: rgba(11, 29, 52, 0.58);
+  }
+
+  .service-bullet-list {
+    grid-template-columns: 1fr;
+  }
+
+  .service-groups {
+    grid-template-columns: 1fr;
+  }
+
+  .services-gallery-section {
+    padding: 70px 18px 80px;
+  }
+
+  .services-expertise-section {
+    padding: 70px 18px 80px;
+  }
+
+  .gallery-tabs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .gallery-tab {
+    flex: 1 1 150px;
+    padding: 12px 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-highlight-overlay {
+    padding: 60px 16px;
+  }
+
+  .services-gallery-section {
+    padding: 50px 14px 70px;
+  }
+
+  .services-expertise-section {
+    padding: 50px 14px 70px;
+  }
+
+  .gallery-tabs {
+    flex-direction: column;
+  }
+
+  .gallery-tab {
+    flex: 1 1 100%;
+  }
+}
+
