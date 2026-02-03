@@ -19,7 +19,7 @@ const Services: React.FC = () => {
         </div>
         <div className="service-card">
           <div className="service-image-wrapper">
-            <img src="image/image4.jpg" alt="Conception de Piscine" />
+            <img src="image/photo1.jpeg" alt="Conception de Piscine" />
           </div>
           <div className="service-content">
             <h3>CONCEPTION DE PISCINE</h3>
@@ -28,7 +28,7 @@ const Services: React.FC = () => {
         </div>
         <div className="service-card">
           <div className="service-image-wrapper">
-            <img src="image/image11.jpg" alt="Rénovation de Piscine" />
+            <img src="image/photo5.jpeg" alt="Rénovation de Piscine" />
           </div>
           <div className="service-content">
             <h3>RÉNOVATION DE PISCINE</h3>

@@ -121,9 +121,9 @@ const realisationCategories: RealisationCategory[] = [
     description:
       'Des jardins et terrasses élégantes, conçus pour sublimer votre environnement extérieur.',
     images: [
-      { src: '/image/image12.jpg', alt: 'Terrasse en bois avec piscine' },
-      { src: '/image/image11.jpg', alt: 'Jardin paysager moderne' },
-      { src: '/image/image1.jpg', alt: 'Aménagement extérieur avec pelouse' },
+      { src: '/image/mirmbajtje1.jpeg', alt: 'Terrasse en bois avec piscine' },
+      { src: '/image/mirmbajtje2.jpeg', alt: 'Jardin paysager moderne' },
+      { src: '/image/mirmbajtje3.jpeg', alt: 'Aménagement extérieur avec pelouse' },
     ],
   },
   {
