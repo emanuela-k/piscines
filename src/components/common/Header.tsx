@@ -20,7 +20,7 @@ const Header = () => {
         <Link to="/" onClick={closeMenu}>ACCUEIL</Link>
         <Link to="/about-us" onClick={closeMenu}>À PROPOS</Link>
         <Link to="/services" onClick={closeMenu}>SERVICES</Link>
-        <Link to="/pool-layouts" onClick={closeMenu}>NOS RÉALISATIONS</Link>
+        <Link to="/pool-layouts" onClick={closeMenu}>GALERIE</Link>
         <Link to="/contact" onClick={closeMenu}>CONTACT</Link>
       </nav>
       <button 

@@ -11,58 +11,23 @@ interface Service {
 const services: Service[] = [
   {
     id: 1,
-    name: 'Piscines Coque ',
-    image: 'image/image5.jpg',
+    name: 'Piscines Standard ',
+    image: 'image/piscines4.jpg',
     alt: 'Construction de Piscine'
   },
   {
     id: 2,
-    name: 'Piscines à skimmers',
-    image: 'image/image10.jpg',
+    name: 'Piscines haute gamme',
+    image: 'image/piscines2.jpg',
     alt: 'Conception de Piscine'
   },
   {
     id: 3,
-    name: 'Piscines à débordement et piscines miroir',
-    image: 'image/image16.jpg',
+    name: 'Spa/ Jaccuzi/ Sauna',
+    image: 'image/spa2.jpg',
     alt: 'Rénovation de Piscine'
   },
-  {
-    id: 4,
-    name: 'Piscines avec couvertures ',
-    image: 'image/image18.jpg',
-    alt: 'Maintenance de Piscine'
-  },
-  {
-    id: 5,
-    name: 'Piscines abstraite ',
-    image: 'image/image15.jpg',
-    alt: 'Entretien de Piscine'
-  },
-  {
-    id: 6,
-    name: 'Sauna sur mesure  ',
-    image: 'image/spa1.jpg',
-    alt: 'Entretien de Piscine'
-  },
-  {
-    id: 7,
-    name: 'Spas ',
-    image: 'image/spa2.jpg',
-    alt: 'Entretien de Piscine'
-  },
-  {
-    id: 8,
-    name: 'Jacuzzi ',
-    image: 'image/jakuzi.jpg',
-    alt: 'Entretien de Piscine'
-  },
-  {
-    id: 9,
-    name: 'Jacuzzi privé ',
-    image: 'image/image2.jpg',
-    alt: 'Entretien de Piscine'
-  }
+  
 ];
 
 const Gallery = () => {

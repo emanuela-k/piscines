@@ -12,7 +12,7 @@ const HeroSection = () => {
            "Nous ne construisons pas seulement des piscines — nous créons des expériences. 
            Du design à la dernière goutte d'eau, nous donnons vie à vos rêves de jardin.
             Un savoir-faire de qualité, 
-           une beauté durable et une détente totale — c'est notre promesse. Plongez dans l'excellence avec nous."
+           une beauté durable et une détente totale . Plongez dans l'excellence avec nous."
           </p>
           <Link to='/contact' className="hero-button fade-in delay-3">CONTACTEZ-NOUS</Link>
         </div>

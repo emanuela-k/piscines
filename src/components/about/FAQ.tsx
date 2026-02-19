@@ -47,7 +47,7 @@ const FAQ = () => {
       <div className="faq-container">
         <div className="faq-left">
           <div className="faq-image-wrapper">
-            <img src="/image/photo10.jpeg" alt="Pool construction" className="faq-image" />
+            <img src="/image/piscines5.jpg" alt="Pool construction" className="faq-image" />
           </div>
         </div>
         

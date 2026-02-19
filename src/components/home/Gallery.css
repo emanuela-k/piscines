@@ -45,7 +45,7 @@
 .services-list {
   flex: 1 1 340px;
   min-width: 0;
-  height: 600px;
+  height: 200px;
   background-color: #fafafa;
   border-radius: 8px;
   padding: 0;

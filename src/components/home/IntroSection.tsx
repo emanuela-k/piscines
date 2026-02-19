@@ -5,7 +5,7 @@ const IntroSection: React.FC = () => {
     <section className="intro-section">
       <div className="intro-container">
         <div className="intro-image">
-          <img src="image/image15.jpg" alt="Pool Construction" />
+          <img src="image/piscines1.jpg" alt="Pool Construction" />
         </div>
         <div className="intro-text">
           <h5>RÉSIDENTIEL & COMMERCIAL</h5>

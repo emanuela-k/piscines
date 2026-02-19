@@ -22,13 +22,13 @@ const WhyChooseUs = () => {
           
           <div className="section-text">
             <p>
-              Chez Edifix Sàrl, nous sommes une entreprise dédiée et passionnée, spécialisée dans la création de piscines d'exception. 
+              Edifix Sàrl est une entreprise engagée et passionnée, spécialisée dans la conception et la réalisation de piscines d’exception.
               Notre équipe expérimentée utilise des matériaux de haute qualité et des techniques modernes pour garantir que vos espaces 
               aquatiques ne soient pas seulement magnifiques, mais aussi durables et sécurisés.
             </p>
             <p>
               Nous servons fièrement nos clients dans toute la Suisse, offrant une large gamme de services incluant la conception de piscines, 
-              la construction, la rénovation, l'entretien, la maintenance, le nettoyage et bien plus encore. Votre satisfaction est notre priorité.
+              la construction, la rénovation, l'entretien, le nettoyage et bien plus encore. Votre satisfaction est notre priorité.
             </p>
           </div>
         </div>

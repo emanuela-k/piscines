@@ -24,7 +24,7 @@ const categories: GalleryCategory[] = [
       { src: '/image/photo9.jpeg', alt: 'Piscine familiale prête à l’usage' },
       { src: '/image/image14.jpg', alt: 'Piscine familiale prête à l’usage' },
       { src: '/image/photo10.jpeg', alt: 'Piscine familiale prête à l’usage' },
-      { src: '/image/photo11.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/photo9.jpeg', alt: 'Piscine familiale prête à l’usage' },
       { src: '/image/photo12.jpeg', alt: 'Piscine familiale prête à l’usage' },
       { src: '/image/image16.jpg', alt: 'Piscine familiale prête à l’usage' },
     ],
