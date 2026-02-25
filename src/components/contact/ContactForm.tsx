@@ -32,7 +32,7 @@ const ContactForm = () => {
       ? `Bonjour!\n${lines.join('\n')}`
       : 'Bonjour!';
 
-    const whatsappNumber = '41797897198'; // without leading +
+    const whatsappNumber = '41789222878'; // without leading +
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(rawMessage)}`;
 
     window.open(whatsappURL, '_blank');
