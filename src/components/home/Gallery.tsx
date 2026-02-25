@@ -18,13 +18,13 @@ const services: Service[] = [
   {
     id: 2,
     name: 'Piscines haute gamme',
-    image: 'image/piscines2.jpg',
+    image: 'image/piscines-haute.jpeg',
     alt: 'Conception de Piscine'
   },
   {
     id: 3,
     name: 'Spa/ Jaccuzi/ Sauna',
-    image: 'image/spa2.jpg',
+    image: 'image/image4.jpg',
     alt: 'Rénovation de Piscine'
   },
   

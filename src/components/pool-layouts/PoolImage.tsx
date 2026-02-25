@@ -15,18 +15,26 @@ const categories: GalleryCategory[] = [
     description:
       'Une sélection de piscines emblématiques, intérieures et extérieures, mettant en lumière la diversité de nos réalisations.',
     images: [
-      { src: '/image/photo1.jpeg', alt: 'Terrasse bois et piscine' },
-      { src: '/image/photo5.jpeg', alt: 'Piscine paysagée haut de gamme' },
-      { src: '/image/photo3.jpeg', alt: 'Piscine avec pergola moderne' },
-      { src: '/image/photo6.jpeg', alt: 'Bassin lumineux de nuit' },
-      { src: '/image/image5.jpg', alt: 'Vue d’ensemble du bassin' },
-      { src: '/image/photo7.jpeg', alt: 'Piscine familiale prête à l’usage' },
-      { src: '/image/photo9.jpeg', alt: 'Piscine familiale prête à l’usage' },
-      { src: '/image/image14.jpg', alt: 'Piscine familiale prête à l’usage' },
-      { src: '/image/photo10.jpeg', alt: 'Piscine familiale prête à l’usage' },
-      { src: '/image/photo9.jpeg', alt: 'Piscine familiale prête à l’usage' },
-      { src: '/image/photo12.jpeg', alt: 'Piscine familiale prête à l’usage' },
-      { src: '/image/image16.jpg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina1.jpeg', alt: 'Terrasse bois et piscine' },
+      { src: '/image/pishina2.jpeg', alt: 'Piscine paysagée haut de gamme' },
+      { src: '/image/pishina3.jpeg', alt: 'Piscine avec pergola moderne' },
+      { src: '/image/pishina4.jpeg', alt: 'Bassin lumineux de nuit' },
+      { src: '/image/pishina5.jpeg', alt: 'Vue d’ensemble du bassin' },
+      { src: '/image/pishina6.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina7.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina8.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina9.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina10.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina11.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina12.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pushina14.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina15.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina16.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina17.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina18.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina19.jpeg', alt: 'Piscine familiale prête à l’usage' },
+      { src: '/image/pishina20.jpeg', alt: 'Piscine familiale prête à l’usage' },
+
     ],
   },
   {
@@ -35,9 +43,7 @@ const categories: GalleryCategory[] = [
     description:
       'Bassin sur-mesure, rénovation complète et finitions haut de gamme pour des piscines durables et harmonieuses.',
     images: [
-      { src: '/image/constuction.jpg', alt: 'Construction de piscine béton armé' },
-      { src: '/image/construction.jpg', alt: 'Chantier de piscine moderne' },
-      { src: '/image/renovation1.jpg', alt: 'Rénovation piscine carrelage' },
+    
      
     ],
   },
@@ -47,9 +53,7 @@ const categories: GalleryCategory[] = [
     description:
       'Espaces spa, hammam et détente conçus pour prolonger l’expérience aquatique et offrir un confort absolu.',
     images: [
-      { src: '/image/spa1.jpg', alt: 'Spa nage intégré' },
-      { src: '/image/spa2.jpg', alt: 'Espace spa premium' },
-      { src: '/image/jakuzi.jpg', alt: 'Bain nordique en bois' },
+    
       
     ],
   },

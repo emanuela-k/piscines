@@ -100,9 +100,9 @@ const realisationCategories: RealisationCategory[] = [
     description:
       'Des piscines sur-mesure pensées pour durer, avec un souci du détail à chaque étape du chantier.',
     images: [
-      { src: '/image/constuction.jpg', alt: 'Construction de piscine béton armé' },
-      { src: '/image/renovation1.jpg', alt: 'Piscine moderne à débordement' },
-      { src: '/image/construction.jpg', alt: 'Piscine rénovée avec mosaïque' },
+      { src: '/image/renovation1.jpeg', alt: 'Construction de piscine béton armé' },
+      { src: '/image/renovation2.jpeg', alt: 'Piscine moderne à débordement' },
+      { src: '/image/renovation3.jpeg', alt: 'Piscine rénovée avec mosaïque' },
     ],
   },
   {
@@ -121,7 +121,7 @@ const realisationCategories: RealisationCategory[] = [
     description:
       'Des jardins et terrasses élégantes, conçus pour sublimer votre environnement extérieur.',
     images: [
-      { src: '/image/mirmbajtje1.jpeg', alt: 'Terrasse en bois avec piscine' },
+      { src: '/image/amenagement.jpeg', alt: 'Terrasse en bois avec piscine' },
       { src: '/image/mirmbajtje2.jpeg', alt: 'Jardin paysager moderne' },
       { src: '/image/mirmbajtje3.jpeg', alt: 'Aménagement extérieur avec pelouse' },
     ],
@@ -132,9 +132,9 @@ const realisationCategories: RealisationCategory[] = [
     description:
       'Nos équipes assurent la maintenance et l’optimisation continue de vos installations.',
     images: [
-      { src: '/image/image20.jpg', alt: 'Équipe de maintenance piscine' },
-      { src: '/image/image4.jpg', alt: 'Inspection technique de bassin' },
-      { src: '/image/image5.jpg', alt: 'Équipement technique piscine' },
+      { src: '/image/services1.jpeg', alt: 'Équipe de maintenance piscine' },
+      { src: '/image/services2.jpeg', alt: 'Inspection technique de bassin' },
+      { src: '/image/services3.jpeg', alt: 'Équipement technique piscine' },
     ],
   },
 ];
