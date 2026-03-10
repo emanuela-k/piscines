@@ -21,7 +21,6 @@ const categories: GalleryCategory[] = [
       { src: '/image/pishina4.jpeg', alt: 'Bassin lumineux de nuit' },
       { src: '/image/pishina5.jpeg', alt: 'Vue d’ensemble du bassin' },
       { src: '/image/pishina6.jpeg', alt: 'Piscine familiale prête à l’usage' },
-      { src: '/image/pishina7.jpeg', alt: 'Piscine familiale prête à l’usage' },
       { src: '/image/pishina8.jpeg', alt: 'Piscine familiale prête à l’usage' },
       { src: '/image/pishina9.jpeg', alt: 'Piscine familiale prête à l’usage' },
       { src: '/image/pishina10.jpeg', alt: 'Piscine familiale prête à l’usage' },
